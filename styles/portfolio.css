@@ -30,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 .nav-title {
@@ -228,6 +228,7 @@ nav li {
     gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
+    
 }
 
 .contract .section-title{
@@ -239,4 +240,24 @@ nav li {
     border: 0;
     width: 90%;
     padding: 18px 30px;
+}
+
+.section-discription{
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+    margin: 20px;
+}
+
+/* anchor styles  */
+
+.anchor{
+    margin-left: 180px;
+    margin-top: 70px;
+}
+.contract a{
+    text-decoration: none;
+    gap: 24px;
+    padding:10px;
+
 }

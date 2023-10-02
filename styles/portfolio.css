@@ -261,3 +261,32 @@ nav li {
     padding:10px;
 
 }
+
+
+@media screen and (max-width: 576px) {
+    .skrill-container , .resume-content{
+        flex-direction: column; }
+        .resume{
+            margin: 20px 20px;
+        }
+
+        .contract{
+            flex-direction: column;
+            
+        }
+
+        .contract, input[type="text"],input[type="email"], textarea{
+            width: 85%;
+        }
+
+        .about-info-container{
+            flex-direction: column;
+        }
+
+
+}
+
+
+.hide {
+    visibility: hidden;
+}
